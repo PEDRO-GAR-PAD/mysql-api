@@ -17,6 +17,8 @@ jobs:
           node-version: 20
       - run: echo 'hello world...'
       - run: ls -la
+      - run: docker build -t PEDRO-GAR-PAD/restapis .
+      - run : docker images
 
   publish-npm:
     needs: build
