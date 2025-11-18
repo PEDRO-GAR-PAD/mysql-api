@@ -1,4 +1,4 @@
-const urlBase = "http://localhost:8080/api/users";
+const urlBase = "https://mysql-restapi-vnu0.onrender.com/api/users";
 
 // Función para crear un nuevo usuario
 function postUser() {
@@ -147,4 +147,3 @@ function deleteUser(id) {
     }
   });
 }
-
